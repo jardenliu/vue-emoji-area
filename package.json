@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "cross-env NODE_BUILD_SIGN=lib vue-cli-service build --target lib --name vue-emoji-textarea --dest dist packages/index.ts",
+    "lib": "cross-env NODE_BUILD_SIGN=lib vue-cli-service build --target lib --name vueEmojiTextarea --dest dist packages/index.ts",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
