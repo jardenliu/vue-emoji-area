@@ -1,10 +1,11 @@
 {
   "name": "vue-emoji-textarea",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/vue-emoji-textarea.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "cross-env NODE_BUILD_SIGN=lib vue-cli-service build --target lib --name vue-emoji-textarea --dest dist packages/index.ts",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -22,6 +23,10 @@
     "@vue/cli-service": "^3.5.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "chai": "^4.1.2",
+    "cross-env": "^5.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.2.1",
     "vue-template-compiler": "^2.5.21"
   },
