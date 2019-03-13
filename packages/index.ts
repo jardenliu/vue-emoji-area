@@ -1,4 +1,4 @@
-import Test from './src/test'
+import Area from './src/area'
 
-export * from './src/test'
-export default Test
+export * from './src/area'
+export default Area

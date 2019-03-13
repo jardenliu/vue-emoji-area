@@ -6,12 +6,12 @@
 
 import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
 import template from './App.vue'
-import Test from 'vue-emoji-area'
+import EmojiArea from 'vue-emoji-area'
 
 @Component({
   mixins: [template],
   components: {
-    Test
+    EmojiArea
   }
 })
 export default class App extends Vue {}

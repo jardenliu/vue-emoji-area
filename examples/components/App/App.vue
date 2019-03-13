@@ -5,10 +5,18 @@
  */
  
 <template>
-  <div>
-    App
-    <Test></Test>
+  <div class="emoji-area-example">
+    <div class="title">EmojiArea <span class="subtitle">表情输入框</span></div>
+    <div class="column-container">
+      <div class="column-name">快速使用</div>
+      <code class="column-code">
+        &#60;emoji-area v-model="value" &#62;&#60;/emoji-area&#62;
+      </code>
+      <div class="column-demo">
+        <emoji-area></emoji-area>
+      </div>
+    </div>
   </div>
 </template>
 
-<style lang="stylus" scoped src="./App.styl"></style>
+<style lang="stylus"  src="./App.styl" scoped></style>

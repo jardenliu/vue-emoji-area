@@ -21,6 +21,6 @@ module.exports = {
 
 
   css: {
-    extract: process.env.NODE_BUILD_SIGN !== 'lib'
+    extract: process.env.NODE_BUILD_SIGN !== 'lib' && process.env.NODE_ENV === 'production'
   }
 }
