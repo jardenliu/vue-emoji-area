@@ -1,11 +1,11 @@
 {
-  "name": "vue-emoji-textarea",
+  "name": "vue-emoji-area",
   "version": "0.1.0",
-  "main": "./dist/vue-emoji-textarea.common.js",
+  "main": "./dist/vue-emoji-area.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "cross-env NODE_BUILD_SIGN=lib vue-cli-service build --target lib --name vueEmojiTextarea --dest dist packages/index.ts",
+    "lib": "cross-env NODE_BUILD_SIGN=lib vue-cli-service build --target lib --name vueEmojiArea --dest dist packages/index.ts",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },

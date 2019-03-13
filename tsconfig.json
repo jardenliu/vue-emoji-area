@@ -20,10 +20,10 @@
       "@/*": [
         "src/*"
       ],
-      "vue-emoji-textarea": [
+      "vue-emoji-area": [
         "packages/index.ts"
       ],
-      "vue-emoji-textarea/*": [
+      "vue-emoji-area/*": [
         "packages/*"
       ]
     },

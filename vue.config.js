@@ -16,7 +16,7 @@ module.exports = {
   configureWebpack: config => {
     config.resolve.extensions = ['.ts', '.tsx', '.vue', '.mjs', '.js', '.jsx', '.json', '.wasm']
     config.resolve.modules.push(resolve(__dirname, 'examples'))
-    config.resolve.alias['vue-emoji-textarea'] = resolve(__dirname, 'packages')
+    config.resolve.alias['vue-emoji-area'] = resolve(__dirname, 'packages')
   },
 
 

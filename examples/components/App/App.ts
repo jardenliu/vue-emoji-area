@@ -6,7 +6,7 @@
 
 import { Component, Vue, Prop, Watch } from 'vue-property-decorator'
 import template from './App.vue'
-import Test from 'vue-emoji-textarea'
+import Test from 'vue-emoji-area'
 
 @Component({
   mixins: [template],
